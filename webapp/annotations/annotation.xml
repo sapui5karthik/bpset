@@ -35,6 +35,9 @@
                             <PropertyValue Property="Value" Path="EmailAddress"/>
                             <PropertyValue Property="Label" String="Email"/>
                         </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="BusinessPartnerID"/>
+                        </Record>
                     </Collection>
                 </Annotation>
             </Annotations>
