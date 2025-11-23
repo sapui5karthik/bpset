@@ -11,6 +11,12 @@
                 <Annotation Term="UI.LineItem">
                     <Collection>
                         <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="BusinessPartnerID"/>
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="BusinessPartnerRole"/>
+                        </Record>
+                        <Record Type="UI.DataField">
                             <PropertyValue Property="Value" Path="CompanyName"/>
                             <PropertyValue Property="Label" String="Comp Name"/>
                             <Annotation Term="UI.Importance" EnumMember="UI.ImportanceType/High"/>
@@ -36,7 +42,7 @@
                             <PropertyValue Property="Label" String="Email"/>
                         </Record>
                         <Record Type="UI.DataField">
-                            <PropertyValue Property="Value" Path="BusinessPartnerID"/>
+                            <PropertyValue Property="Value" Path="PhoneNumber"/>
                         </Record>
                     </Collection>
                 </Annotation>
